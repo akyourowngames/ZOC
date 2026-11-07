@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -iname \"*track*\" -o -iname \"*xp*\" -o -iname \"*.json\" -not -path \"*/node_modules/*\" | head -50)",
+      "Bash(cd \"C:\\\\Users\\\\anime\\\\Desktop\\\\ZOC\\\\New folder\" && wc -l js/data.js js/store.js js/workspace.js app.js styles.css)"
+    ]
+  }
+}
