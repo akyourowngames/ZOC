@@ -1,8 +1,8 @@
 # Study Roadmap
 
-This checklist mirrors the 7 chapters and 55 gates inside the tracker. Import it with **System → Import → Markdown checklist**, or paste it into the paste box. Checked items complete matching gates; unchecked items are ignored. The five foundation gates covered by the shipped workspace are pre-checked — adjust the boxes to match your own progress before importing.
+This checklist defines 7 chapters and 55 study gates. Use it as a syllabus and check items off as you complete them. The foundation gates covered by this workspace are pre-checked; adjust the boxes to match your own progress.
 
-> File existence is evidence, not mastery. The tracker shows evidence badges separately, and you can apply them from the System view when you are ready.
+> File existence is evidence, not mastery. The field journal shows evidence badges separately, and you can apply them when you are ready.
 
 ## Chapter 1 · Awakening (E-Rank)
 
@@ -103,4 +103,4 @@ For each topic:
 3. Solve problems in `02-problem-solving/problems/`.
 4. Record the problem, idea, complexity, and mistakes.
 5. Revisit unsolved problems after a few days.
-6. Log the focused block in the Training log so the System can track pace and streaks.
+6. Log the focused block in the field journal's Training log so it can track pace and streaks.

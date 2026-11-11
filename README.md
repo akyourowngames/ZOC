@@ -1,6 +1,6 @@
 # Learn C++ by Solving
 
-A self-contained C++ curriculum and practice workspace: **38 worked problems**, a **ZCO contest track**, foundation lessons, deep notes, and a local progress tracker.
+A self-contained C++ curriculum and practice workspace: **38 worked problems**, a **ZCO contest track**, foundation lessons, deep notes, and a local Next.js field-journal tracker.
 
 No account, server, or build system is required for the learning material. You need one C++ compiler, a text editor, and the willingness to solve problems before reading the solutions.
 
@@ -23,7 +23,7 @@ Every problem is documented at four levels: the task, the thinking process, the 
 - **The reasoning is written down.** `02-problem-solving/PROBLEM-LOGIC.md` explains the core idea, proof sketch, complexity, and failure mode for all 38 problems.
 - **The ZCO track is contest-grade.** Four exercises come with correctness arguments, dry runs, complexity budgets, and a dedicated `ZCO-LOGIC-GUIDE.md`.
 - **The current code is reviewed honestly.** Some folders preserve the learner's working solution and document its bugs, overflow risks, and output-format mistakes instead of hiding them. Those reviews are lessons, not polished judge submissions.
-- **A progress tracker is included.** Open `index.html` for a local, gamified view of gates, problems, sessions, and streaks.
+- **A field-journal tracker is included.** The `field-journal/` Next.js app tracks gates, problems, sessions, and streaks, and can watch the workspace for saves.
 
 ## Quick start
 
@@ -66,9 +66,17 @@ first.exe
 
 The `-Wall -Wextra` flags are not required, but they teach you more than they cost.
 
-### 4. Open the progress tracker
+### 4. Run the field-journal tracker (optional)
 
-Open `index.html` in a modern browser. Progress is stored in your browser, not on a server. See [TRACKER-GUIDE.md](TRACKER-GUIDE.md) for views, shortcuts, imports, and backups.
+The tracker is a local Next.js app; Node.js is required only for this step.
+
+```bash
+cd field-journal
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`. Progress stays in your browser, and the optional watcher can log saves from this workspace. See [field-journal/README.md](field-journal/README.md) for views, imports, and backups.
 
 ### 5. Use VS Code (optional)
 
@@ -139,9 +147,8 @@ If a folder's `notes.md` has a **Current-code review** section, read it carefull
 │   └── ioi/                   # IOI-style practice layout
 ├── 04-reference/              # STL, algorithms, complexity, templates
 ├── 99-build-artifacts/        # Compiler output (ignored by Git)
-├── index.html                 # Local progress tracker
-├── ROADMAP.md                 # 55-gate study roadmap
-└── TRACKER-GUIDE.md           # How to use the tracker
+├── field-journal/             # Next.js field-journal tracker
+└── ROADMAP.md                 # 55-gate study roadmap
 ```
 
 ### Key references
@@ -151,7 +158,7 @@ If a folder's `notes.md` has a **Current-code review** section, read it carefull
 - **ZCO index:** [03-contests/zco/README.md](03-contests/zco/README.md)
 - **ZCO deep guide:** [03-contests/zco/ZCO-LOGIC-GUIDE.md](03-contests/zco/ZCO-LOGIC-GUIDE.md)
 - **Roadmap:** [ROADMAP.md](ROADMAP.md)
-- **Tracker guide:** [TRACKER-GUIDE.md](TRACKER-GUIDE.md)
+- **Field-journal tracker:** [field-journal/README.md](field-journal/README.md)
 
 ## A taste of the problem set
 
@@ -183,7 +190,7 @@ Read the [ZCO logic guide](03-contests/zco/ZCO-LOGIC-GUIDE.md) after attempting 
 - **Weekly:** re-solve one old problem from memory and review your mistake log.
 - **Before a contest:** solve one problem under a timer, then read the editorial or notes.
 - **After a contest:** classify every failure as *wrong idea*, *wrong implementation*, *wrong output format*, or *ran out of time*. Fix the category, not just the problem.
-- **Track evidence, not ego:** a file on disk proves you wrote something, not that you can reproduce it. The tracker treats evidence and mastery separately for this reason.
+- **Track evidence, not ego:** a file on disk proves you wrote something, not that you can reproduce it. The field journal treats evidence and mastery separately for this reason.
 
 ## Conventions
 

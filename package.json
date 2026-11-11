@@ -1,9 +1,0 @@
-{
-  "name": "zco-ioi-hunter-tracker",
-  "version": "3.0.0",
-  "private": true,
-  "description": "Local-first Solo Leveling-style ZCO and IOI preparation tracker.",
-  "scripts": {
-    "snapshot": "node scripts/build-workspace-snapshot.mjs"
-  }
-}

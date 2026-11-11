@@ -13,6 +13,3 @@
 
 # Dependencies
 node_modules/
-
-# Separate local Next.js project, not part of this repository
-field-journal/
