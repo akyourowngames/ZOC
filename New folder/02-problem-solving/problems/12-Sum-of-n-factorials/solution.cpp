@@ -15,4 +15,5 @@ int main() {
         i++;
     }
     cout << sum;
+    return 0;
 }

@@ -1,5 +1,17 @@
 # IOI Practice
 
-Store IOI-style problems, subtasks, observations, and final solutions here.
+Store each IOI-style problem in its own folder. Keep the subtask progression,
+observations, final solution, and complexity together.
 
-For each problem, record the subtask progression and the complexity of the final approach.
+Recommended layout:
+
+```text
+problem-name/
+  README.md
+  idea.md
+  subtasks.md
+  solution.cpp
+```
+
+Do not place compiler-generated files beside source code; use
+`99-build-artifacts/contests/ioi/`.

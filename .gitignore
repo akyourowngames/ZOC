@@ -1,0 +1,18 @@
+# Local tool settings (never commit these)
+.qoder/
+.commandcode/
+
+# Compiler and build output
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.suo
+*.user
+99-build-artifacts/
+
+# Dependencies
+node_modules/
+
+# Separate local Next.js project, not part of this repository
+field-journal/

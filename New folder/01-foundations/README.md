@@ -11,5 +11,8 @@ Current examples:
 - `04-if-else.cpp`
 - `05-bitwise-operators.cpp`
 - `06-logical-operators.cpp`
+- `07-for-loops.cpp`
+- `08-do-while-loops.cpp`
+- `09-functions.cpp`
 
 Generated compiler files are stored in `99-build-artifacts/foundations/`.

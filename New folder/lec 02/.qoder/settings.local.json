@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(cd \"C:/Users/anime/Desktop/ZOC/New folder/02-problem-solving/problems/Basic Problems\" && ls -la && file basic.exe 2>/dev/null; echo \"---hexdump---\"; od -A x -t x1z -N 64 basic.exe)"
-    ]
-  }
-}

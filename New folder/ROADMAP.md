@@ -14,8 +14,8 @@ This checklist mirrors the 7 chapters and 55 gates inside the tracker. Import it
 - [x] Type conversion — +90 XP
 - [x] Conditions — +100 XP
 - [x] Logical and bitwise operators — +120 XP
-- [ ] Loops — +140 XP
-- [ ] Functions — +140 XP
+- [x] Loops — +140 XP
+- [x] Functions — +140 XP
 - [ ] Arrays and strings — +160 XP
 - [ ] Debugging & complexity — +180 XP
 

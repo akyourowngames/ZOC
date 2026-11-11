@@ -3,13 +3,10 @@
         {
             "type": "cppbuild",
             "label": "C/C++: cl.exe build active file",
-            "command": "cl.exe",
+            "command": "cmd.exe",
             "args": [
-                "/Zi",
-                "/EHsc",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "/c",
+                "call \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul && cl.exe /Zi /EHsc /nologo \"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe\" \"${file}\""
             ],
             "options": {
                 "cwd": "${fileDirname}"
