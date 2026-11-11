@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CODE_EXT = new Set(['.cpp', '.cc', '.cxx', '.c', '.h', '.hpp', '.js', '.ts', '.py', '.java']);
 const DOC_EXT = new Set(['.md', '.txt']);
-const IGNORED_DIRS = new Set(['.git', '.qoder', '.commandcode', '.vscode', '99-build-artifacts', 'node_modules', 'js', 'data', 'scripts']);
+const IGNORED_DIRS = new Set(['.git', '.qoder', '.commandcode', '.vscode', '99-build-artifacts', 'node_modules', 'js', 'data', 'scripts', 'field-journal']);
 const IGNORED_ROOT_FILES = new Set(['app.js', 'index.html', 'styles.css', 'package.json', 'package-lock.json']);
 
 const labels = {

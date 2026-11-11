@@ -1,5 +1,8 @@
 # SYSTEM — ZCO × IOI Hunter Tracker
 
+> This is the manual for the local progress tracker. For the curriculum and how
+> to study, start with [README.md](./README.md).
+
 A local-first, Solo Leveling–style preparation tracker for ZCO and IOI. It turns the C++ workspace into a hunter status window: gates, dungeons, ranks, stats, quests, achievements, streaks, and an evidence-aware view of the files already on disk.
 
 No server, build step, or account is required. Open [`index.html`](./index.html) in a modern browser.
