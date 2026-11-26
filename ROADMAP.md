@@ -16,6 +16,9 @@ This checklist defines 7 chapters and 55 study gates. Use it as a syllabus and c
 - [x] Logical and bitwise operators — +120 XP
 - [x] Loops — +140 XP
 - [x] Functions — +140 XP
+- [x] Arrays — +160 XP
+- [x] Vectors — +160 XP
+- [x] Strings — +160 XP
 - [ ] Arrays and strings — +160 XP
 - [ ] Debugging & complexity — +180 XP
 

@@ -7,7 +7,8 @@
 Read a single integer `N` and print every integer from `1` through `N`
 inclusive, in increasing order, separated by single spaces.
 
-The printing itself is trivial; folder [`31-print-to-N`](../31-print-to-N/)
+The printing itself is trivial; folder
+[`31-print-to-N`](../../03-functions/31-print-to-N/)
 solves the same task with a `for` loop. The point of *this* version is the loop
 form. The counter loop must be written as a `do-while`, which executes its body
 **before** testing the condition. That single fact changes what happens at the

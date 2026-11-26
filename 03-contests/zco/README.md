@@ -2,9 +2,9 @@
 
 Practice set modelled on ZCO-style tasks: one input, one small program, and a
 verdict that depends on exact output and on a complexity budget that is easy to
-blow with a naive loop. The four folders here are study material, not official
-ZCO statements. Wording, constraints, and required tokens are reconstructed
-from practice; always re-read the original problem before submitting anything.
+blow with a naive loop. These folders are study material, not official ZCO
+statements. Wording, constraints, and required tokens are reconstructed from
+practice; always re-read the original problem before submitting anything.
 
 The deep reasoning - number theory, digit invariants, the maximum-revenue
 argument, dry runs, and judge discipline - is in
@@ -33,10 +33,16 @@ belongs in `99-build-artifacts/contests/zco/`, never beside the source.
 | 02 | [02-digit-analysis](./02-digit-analysis/) | Digit sum, digit reversal, palindrome test | three lines: sum, reverse, `true`/`false` | digit peel, reverse accumulator | O(d) time, O(1) space | Runs, matches the intended output |
 | 03 | [03-number-analysis-functions](./03-number-analysis-functions/) | Same three checks as 01, decomposed into functions | labels `Prime:`, `Divisors:`, `Perfect:` on separate lines | function decomposition | O(N) time, O(1) space | Runs, correct values, judge-hostile labels |
 | 04 | [04-max-revenue](./04-max-revenue/) | Choose one ticket price to maximise `price * buyers_at_or_above_price` | one integer, the maximum revenue | brute force over candidate prices | O(N^2) time, O(N) space | Runs, but revenue can overflow `int` - see flag below |
+| 05 | [05-team](./05-team/) | Count problems supported by at least two of three people | one integer | opinion sum | O(N) time, O(1) space | Scaffolded practice |
+| 06 | [06-general-colonel](./06-general-colonel/) | Move the maximum to the front and minimum to the back | one integer | index calculation | O(N) time, O(1) space | Verify duplicate/extreme behavior |
+| 07 | [07-next-round](./07-next-round/) | Count positive scores at least as large as rank `K` | one integer | threshold scan | O(N) time, O(1) space | Use score index `K - 1` |
+| 08 | [08-I-Wanna-Be-The-Guy](./08-I-Wanna-Be-The-Guy/) | Check whether all levels are covered by two lists | exact sentence | Boolean visited array | O(N) time, O(N) space | Exact output matters |
+| 09 | [09-bear-and-big-brother](./09-bear-and-big-brother/) | Simulate two different growth rates until one value is larger | one integer | direct simulation | O(years) time, O(1) space | Continue while weights are equal |
+| 10 | [10-wrong-subtraction](./10-wrong-subtraction/) | Apply a digit-dependent operation K times | one integer | bounded simulation | O(K) time, O(1) space | Inspect only the last digit |
+| 11 | [11-Youmu-Konpaku -and-the-duel](./11-Youmu-Konpaku%20-and-the-duel/) | Minimize actions under a damage rule | one result per test | search over candidate actions | Constraint-dependent | Verify formulas against the original statement |
 
 `d` is the number of decimal digits of `N`, `N` the numeric bound or array
-length. Complexity is per single query; none of the four solutions uses a
-sieve or memoisation.
+length. Complexity is per single query.
 
 ## Flags before you trust the output
 

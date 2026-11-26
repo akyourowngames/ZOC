@@ -8,7 +8,7 @@ Read an integer `N` and print every integer from `1` through `N` inclusive, in
 increasing order, separated by spaces.
 
 Structurally this is the same task as folder
-[`25-num-from-1-to-n-usingdowhile`](../25-num-from-1-to-n-usingdowhile/),
+[`25-num-from-1-to-n-usingdowhile`](../../02-loops-and-number-work/25-num-from-1-to-n-usingdowhile/),
 which uses a `do-while`. Comparing the two is the point: a counted loop with a
 possibly empty range is exactly what `for` was designed for, and it needs no
 guard.
